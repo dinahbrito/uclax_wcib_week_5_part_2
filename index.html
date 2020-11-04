@@ -19,7 +19,39 @@
 
   <body>
 
-    <h1>Week 5, Part 2</h1>
+    <form class="form-signin">
+      <div class="text-center mb-4">
+        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Accurate Weather*</h1>
+        <p>*We're pretty sure we're accurate somewhere in the world.</p>
+      </div>
+
+      <div class="form-label-group">
+        <input type="text" id="customname" class="form-control" placeholder="City Name">
+        <label for="customname">Enter city name:</label>
+      </div>
+
+      <div class="form-label-group">
+        <input type="text" id="customstate" class="form-control" placeholder="Enter State Name">
+        <label for="customstate">Enter state name:</label>
+      </div>
+
+<!-- <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio1">Toggle this custom radio</label> -->
+      <div>
+        <label for="us">US</label>
+        <input id="us" type="radio" name="ukus" value="us" checked>
+        <label for="uk">UK</label>
+        <input id="uk" type="radio" name="ukus" value="uk">
+        <label for="pirate">Pirate</label>
+        <input id="pirate" type="radio" name="ukus" value="pirate">
+      </div>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Get Forecast</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2020</p>
+
+
+    </form>
 
 	</body>
 
