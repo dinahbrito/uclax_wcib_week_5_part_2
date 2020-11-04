@@ -5,8 +5,15 @@
 p {
   margin-top: 30px; }
 
+img {
+  max-width: 30%; }
+
 .bg-custom {
   background-color: #13274F; }
+
+.backimage {
+  padding: 30px;
+  margin-top: 20px; }
 
 /* Floating Labels */
 :root {
