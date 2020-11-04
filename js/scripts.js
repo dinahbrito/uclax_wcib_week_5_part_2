@@ -26,7 +26,6 @@ function result() {
   let wItem = randomValueFromArray(insertW);
 
   newStory = newStory.replace(':insertx:',xItem);
-  newStory = newStory.replace(':insertx:',xItem);
   newStory = newStory.replace(':inserty:',yItem);
   newStory = newStory.replace(':insertz:',zItem);
   newStory = newStory.replace(':insertw:', wItem);
