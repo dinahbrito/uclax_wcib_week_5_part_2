@@ -9,15 +9,13 @@ p {
 }
 
 img {
-  max-width: 30%;
+  max-width: 25%;
+  padding: 15px;
 }
 .bg-custom {
   background-color: #13274F;
 }
 
-.backimage {
-  margin-top: 20px;
-}
 /* Floating Labels */
 :root {
   --input-padding-x: .75rem;
