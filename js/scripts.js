@@ -48,6 +48,17 @@ function result() {
      newStory = newStory.replace('30 pounds',weight);
    }
 
+   if(document.getElementById("pirate").checked) {
+     const weight = Math.round(30*0.0714286) + ' stone';
+     const temperature =  Math.round((94-32) * 5 / 9) + ' centigrade';
+     newStory = newStory.replace('94 fahrenheit',temperature);
+     newStory = newStory.replace('30 pounds',weight);
+     newStory = newStory.replace('Hello','Ahoy');
+     newStory = newStory.replace(/and/gi,'\'n');
+     newStory = newStory.replace(/you/gi,'ye');
+     newStory = newStory.replace(/^/, "Arr, me hearties. ");
+   }
+
    story.textContent = newStory;
    story.style.visibility = 'visible';
  }
